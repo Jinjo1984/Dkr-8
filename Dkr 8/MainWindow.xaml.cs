@@ -93,7 +93,7 @@ namespace Dkr_8
                     labelA.Margin = new Thickness(170, 113, 383, 149);
                     labelBH.Margin = new Thickness(431, 113, 103, 149);
                     labelBH.Visibility = Visibility.Visible;
-
+                    labelBH.Content = "Высота B";
                     break;
                 case 2:
                     nameBH.Visibility = Visibility.Visible;
@@ -120,7 +120,8 @@ namespace Dkr_8
         {
             double a = 0;
             double bh = 0;
-            if (nameA.Text.Length > 0 & nameA.Text.All(char.IsDigit) )
+            Result.Content = "Площадь фигуры равна: ";
+            if (nameA.Text.Length > 0 & nameA.Text.All(char.IsDigit))
             {
                 switch (ChangeIndex)
                 {
@@ -148,6 +149,11 @@ namespace Dkr_8
                         break;
                 }
             }
+            else
+            {
+                MessageBox.Show("Ошибка ввода");
+            }
+            
         }
     }
 }

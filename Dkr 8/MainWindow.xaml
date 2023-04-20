@@ -296,7 +296,7 @@
             <Label Content="Контрольная работа #8" FontFamily="Century Gothic" Margin="59,34,363,359" FontSize="20"/>
             <Border CornerRadius="5" Background="#FFCDD6D6" Margin="59,90,59,66">
                 <Grid>
-                    <Label Name="Result" Content="Площадь фигуры равна: " Margin="228,197,227,57" FontFamily="Century Gothic" FontSize="13"/>
+                    <Label Name="Result" Content="Площадь фигуры равна: " Margin="228,197,96,57" FontFamily="Century Gothic" FontSize="13"/>
                     <Label Content="Выберите фигуру для расчета площади" Margin="189,10,116,218" FontFamily="Century Gothic" FontSize="15"/>
                     <Label Content="Сторона A" Name="labelA" Margin="300,109,253,153" FontFamily="Century Gothic"/>
                     <Label Content="Сторона H" Name="labelBH" Margin="431,113,103,149" FontFamily="Century Gothic"/>
